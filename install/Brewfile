@@ -21,7 +21,6 @@ brew "go"
 brew "mole"
 brew "stats"
 brew "codex"
-brew "opencode"
 
 # Cask applications
 cask "appcleaner"
