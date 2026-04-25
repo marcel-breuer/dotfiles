@@ -25,7 +25,6 @@ brew "codex"
 # Cask applications
 cask "appcleaner"
 cask "notion"
-cask "notion-calendar"
 cask "zoom"
 cask "brave-browser"
 cask "chatgpt"
