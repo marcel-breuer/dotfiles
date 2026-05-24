@@ -62,6 +62,12 @@ Run shell lint/format checks locally:
 ./scripts/lint-shell.sh
 ```
 
+Check that all installed Homebrew casks are declared in the Brewfile:
+
+```bash
+./scripts/check-brewfile-casks.sh
+```
+
 A GitHub Actions workflow also runs these checks on push and pull request.
 
 ## Structure
@@ -72,5 +78,6 @@ The most important files are:
 - `install/packages.sh`: package installation script
 - `install/Brewfile`: Homebrew package list
 - `scripts/lint-shell.sh`: shell quality checks (`shellcheck` + `shfmt`)
+- `scripts/check-brewfile-casks.sh`: verifies installed casks are declared in the Brewfile
 - `.zshrc`: ZSH configuration file
 - `.gitconfig`: Git configuration file
