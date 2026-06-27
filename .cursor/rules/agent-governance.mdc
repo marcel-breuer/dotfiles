@@ -1,0 +1,10 @@
+---
+description: Canonical repository governance for coding agents
+alwaysApply: true
+---
+
+Follow the canonical repository instructions in `AGENTS.md`.
+
+Before changing files, read the root `AGENTS.md`, any nearer local `AGENTS.md`, `.agent/skills/README.md`, and only the task-relevant skills under `.agent/skills/`.
+
+Keep changes scoped, secure, testable, and consistent with existing repository patterns. Do not duplicate or contradict canonical rules here. Keep responses concise.
